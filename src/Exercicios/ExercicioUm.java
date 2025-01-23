@@ -11,10 +11,9 @@ public class ExercicioUm {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Digite palavras");
             palavras.add(scanner.next());
-
         }
+
         palavras.sort((a, b) -> Integer.compare(b.length(), a.length()));
-        palavras.size();
 
         System.out.println(palavras.size());
         System.out.println(palavras.get(0) + ", possui " + palavras.get(0).length() + " caracteres");
